@@ -21,7 +21,7 @@ class ConsultaThread(QtCore.QThread):
     def run(self):
         # Configuración de OpenAI
         openai.api_key = \
-        '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'
+        'YOUR OPENAI API GOES HERE'
         
         # Realiza la solicitud a OpenAI
         response = openai.Completion.create(
